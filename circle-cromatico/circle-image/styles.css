@@ -1,0 +1,803 @@
+*{
+    box-sizing: border-box;
+}
+
+.circle-border{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 580px;
+    height: 580px;
+    border: 6px solid #000;
+    border-radius: 50%;
+    background: conic-gradient(
+        #fffb00 0deg 31deg, #ffc400 31deg 59.5deg, #f14805 59.5deg 90deg,
+    #f10404 90deg 121deg, #c00779 120deg 155deg, #4a0a86 150deg 190deg,
+    #070253 180deg 230deg, #057e6a 230deg 268deg, #059205 268deg 301deg,
+     #05f519 300deg 331deg, #5eff01 331deg 360deg )
+   
+
+}
+
+
+        /* PRIMEIRA CAMADA ↑ ↑ ↑  */
+    
+
+
+.circle-border2{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+
+    background: conic-gradient(
+        #f5f254 0deg 31deg, #eec230 31deg 59.5deg, #f36d37 59.5deg 90deg,
+    #f53737 90deg 121deg, #f845b4 120deg 155deg, #8c30e2 150deg 190deg,
+    #4135e0 180deg 230deg, #2eb19b 230deg 268deg, #37be37 268deg 301deg,
+     #48d153 300deg 331deg, #8bec53 331deg 360deg )
+}
+   
+
+
+.circle-border3{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0 ;
+    margin: auto;
+    width: 380px;
+    height: 380px;
+    
+    border-radius: 50%;
+    background: conic-gradient(
+        #ebec9d 0deg 31deg, #f1d67d 31deg 59.5deg, #eea182 59.5deg 90deg,
+    #ee9696 90deg 121deg, #df6eb4 120deg 155deg, #bb89e9 150deg 190deg,
+    #7b75d6 180deg 230deg, #80c9bd 230deg 268deg, #9edf9e 268deg 301deg,
+     #beebc2 300deg 331deg, #daf3cc 331deg 360deg )
+}
+
+.circle-border4{
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0 ;
+        margin: auto;
+        width: 280px;
+        height: 280px;
+        
+        border-radius: 50%;
+        background: conic-gradient(white 0deg 0deg);
+}
+
+.circle-border-transparent{
+    position: absolute;
+    right: 3px;
+    left: 3px;
+    top: 0px;
+    bottom: 5px;
+    margin: auto;
+    background: linear-gradient(#ffffff 85%);
+    width: 85px;
+    height: 85px;
+    
+    border-radius: 50%;
+}
+
+
+
+
+
+.line-emocional-left::before, .line-espiritual-right::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 288px;
+    background-color: #000;
+    top: 0;
+    left: 50%;
+    transform-origin: bottom
+
+}
+.line-emocional-left::before{
+    transform: rotate(-29deg);
+    width: 3px;
+    
+    
+}
+
+.line-espiritual-right::after{
+    transform: rotate(0.1deg);
+    width: 3px;
+    
+}
+.line-intelectual, .line-financeiro, .line-profissional, .line-servir{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 290px;
+    background-color: #000;
+    top: 0;
+    left: 50%;
+    transform-origin: bottom
+} 
+.line-parentes, .line-conjugal, .line-filhos, .line-social, .line-saude{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 287px;
+    background-color: #000;
+    top: 0;
+    left: 50%;
+    transform-origin: bottom
+}
+    .line-profissional{
+     transform: rotate(-59deg);
+     width: 3px;
+     top: -0.5%; 
+}
+        .line-financeiro{
+            transform: rotate(-92deg);
+            width: 3px;
+            top: -0.5%;
+            
+}
+            .line-intelectual{
+                transform: rotate(-130deg);
+                width: 3px;
+                height: 286px;
+                left: 50%;
+                
+}
+                .line-servir{
+                    transform: rotate(-169.2deg);
+                    width: 3px;
+                    height: 287px;
+}
+/*linhas esquerdas ↑ */
+
+/*linhas direitas ↓ */
+    .line-parentes{
+     transform: rotate(30deg);
+     width: 3px;
+     
+}
+        .line-conjugal{
+            transform: rotate(59deg);
+            width: 3px;
+}
+            .line-filhos{
+                transform: rotate(89deg);
+                width: 3px;
+}
+                .line-social{
+                    transform: rotate(121deg);
+                    width: 3px;
+}
+                    .line-saude{    
+                        transform: rotate(155deg);
+                        width: 3px;
+}
+
+
+
+
+     /* GAMBIARRA DOS NUMEROS⬇️  */
+
+
+ .number-espiritual{
+position: absolute;
+letter-spacing: 7px;
+font-size: 15px;
+right: 45.4%;
+bottom: 64%;
+transform: rotate(-90deg)
+}
+.number-espiritual-2{
+ position: absolute;
+ letter-spacing: 7px;
+ font-size: 17px;
+ right: 47.5%;
+ bottom: 74.8%;
+ transform: rotate(-90deg)
+ }
+.number-espiritual-3{
+position: absolute;
+letter-spacing: 7px;
+font-size: 18px;
+right: 47.5%;
+top: 8%;
+transform: rotate(-90deg)
+
+ }
+.number-espiritual-4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 19px;
+right: 48%;
+top: -1%;
+transform: rotate(-90deg)
+}
+
+
+                       /*  GABIARRA NUMEROS PARENTES ↓↓↓  */
+
+
+.number-parentes{
+position: absolute;
+letter-spacing: 7px;
+font-size: 15px;
+right: 36.8%;
+top: 31%;
+transform: rotate(-60deg)
+
+}
+
+.number-parentes2{
+                
+position: absolute;
+letter-spacing: 7px;
+font-size: 18px;
+right: 33%;
+top: 21%;
+transform: rotate(-60deg)
+
+}
+
+.number-parentes3{
+position: absolute;
+letter-spacing: 7px;
+font-size: 18px;
+right: 29%;
+top: 13%;
+transform: rotate(-60deg)
+}
+.number-parentes4{
+position: absolute;
+letter-spacing: 1px;
+font-size: 20px;
+right: 25%;
+top: 5%;
+transform: rotate(-60deg)
+
+               /*  GAMBIARRA NUMERO CONJUGAL ↓↓*/   
+}
+
+.number-conjugal{
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+right: 30%;
+top: 37%;
+transform: rotate(-30deg)
+}
+.number-conjugal2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 22%;
+top: 30%;
+transform: rotate(-30deg)
+}
+.number-conjugal3{
+position: absolute;
+letter-spacing: 8px;
+font-size: 20px;
+right: 13.8%;
+top: 25%;
+transform: rotate(-30deg)
+}
+.number-conjugal4{
+position: absolute;
+letter-spacing: 1px;
+font-size: 20px;
+right: 8%;
+top: 21%;
+transform: rotate(-30deg)
+}
+
+
+                /* GAMBIARRA NUMERO FILHOS ↓↓*/ 
+.number-filhos{
+position: absolute;
+letter-spacing: 7px;
+font-size: 15px;
+right: 27.5%;
+bottom: 48%;
+transform: rotate(-1.5deg)
+
+}
+.number-filhos2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 17%;
+bottom: 48%;
+transform: rotate(-1.5deg)
+}
+.number-filhos3{
+position: absolute;
+letter-spacing: 8px;
+font-size: 20px;
+right: 8%;
+bottom: 48%;
+transform: rotate(-1.5deg)
+}
+.number-filhos4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 20px;
+right: 0%;
+bottom: 48%;
+transform: rotate(-1.5deg)
+}
+
+                /* GAMBIARRA NUMERO SOCIAL ↓↓*/ 
+
+.number-social{
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+right: 28%;
+bottom: 39.5%;
+transform: rotate(29deg)
+
+}
+.number-social2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 20%;
+bottom: 32.8%;
+transform: rotate(29deg)
+
+}
+                
+.number-social3{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 12.5%;
+bottom: 28.5%;
+transform: rotate(29deg)
+
+}
+.number-social4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 20px;
+right: 5%;
+bottom: 24%;
+transform: rotate(29deg)
+
+}
+
+                /* GAMBIARRA NUMERO SAÚDE ↓↓↓*/
+
+.number-saude{
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+right: 34.5%;
+bottom: 32.2%;
+transform: rotate(65deg)
+}
+.number-saude2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 32%;
+bottom: 21%;
+transform: rotate(65deg)
+}
+.number-saude3{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 28%;
+bottom: 13%;
+transform: rotate(65deg)
+}
+.number-saude4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 18px;
+right: 25%;
+bottom: 5%;
+transform: rotate(65deg)
+}
+
+                /* GAMBIARRA NUMERO SERVIR ↓↓↓ */
+                        
+.number-servir{    
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+right: 44.3%;
+bottom: 29.8%;
+transform: rotate(100deg)
+}
+.number-servir2{    
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 49%;
+bottom: 17.5%;
+transform: rotate(100deg)
+}
+.number-servir3{    
+position: absolute;
+letter-spacing: 8px;
+font-size: 20px;
+right: 50.2%;
+bottom: 8%;
+transform: rotate(100deg)
+}
+.number-servir4{    
+position: absolute;
+letter-spacing: 2px;
+font-size: 20px;
+right: 52.5%;
+bottom: 0%;
+transform: rotate(100deg)
+}
+
+
+                /* GAMBIARRA NUMERO INTELECTUAL ↓↓↓*/
+
+.number-intelectual{
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+right: 54%;
+bottom: 35%;
+transform: rotate(-41deg)
+                                    
+}
+.number-intelectual2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+right: 65.2%;
+bottom: 26%;
+transform: rotate(-41deg)
+                            
+}
+.number-intelectual3{
+position: absolute;
+letter-spacing: 5px;
+font-size: 18px;
+left: 21%;
+bottom: 20%;
+transform: rotate(-41deg)
+    
+}
+.number-intelectual4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 20px;
+left: 13%;
+bottom: 13%;
+transform: rotate(-41deg)
+}
+
+                /* GAMBIARRA NUMERO FINANCEIRO ↓↓↓*/
+
+.number-financeiro{
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+left: 28.2%;
+bottom: 43.5%;
+transform: rotate(-2deg)
+        
+
+}
+.number-financeiro2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+left: 18.5%;
+bottom: 42.5%;
+transform: rotate(-2deg)
+        
+
+}
+.number-financeiro3{
+position: absolute;
+letter-spacing: 8px;
+font-size: 20px;
+left: 9%;
+bottom: 41.8%;
+transform: rotate(-2deg)
+        
+
+}           
+.number-financeiro4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 20px;
+left: .5%;
+bottom: 41.8%;
+transform: rotate(-2deg)
+        
+                /* GAMBIARRA NUMERO PROFISSIONAL ↓↓↓*/
+
+}
+.number-profissional{
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+left: 28.8%;
+top: 40.5%;
+transform: rotate(29deg)
+            
+}
+.number-profissional2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+left: 20.5%;
+top: 34%;
+transform: rotate(29deg)
+            
+}
+.number-profissional3{
+position: absolute;
+letter-spacing: 5px;
+font-size: 18px;
+left: 14%;
+top: 30%;
+transform: rotate(29deg)
+            
+}
+.number-profissional4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 20px;
+left: 5.2%;
+top: 24.8%;
+transform: rotate(29deg)
+            
+}
+
+                /*GAMBIARRA NUMERO EMOCIONAL ↓↓↓ */
+
+.number-emocional{
+position: absolute;
+letter-spacing: 8px;
+font-size: 15px;
+left: 34%;
+top: 34.2%;
+transform: rotate(60deg)
+
+}
+.number-emocional2{
+position: absolute;
+letter-spacing: 8px;
+font-size: 18px;
+left: 30.8%;
+top: 23%;
+transform: rotate(60deg)
+    
+
+}
+.number-emocional3{
+position: absolute;
+letter-spacing: 5px;
+font-size: 20px;
+left: 27%;
+top: 15%;
+transform: rotate(60deg)
+    
+
+}
+.number-emocional4{
+position: absolute;
+letter-spacing: 2px;
+font-size: 20px;
+left: 22%;
+top: 6.5%;
+transform: rotate(60deg)
+    
+
+            }
+.espiritual{
+position: absolute;
+    font-size: 60%;
+    right: 38%;
+    bottom: 103%;
+}
+    .parentes{
+        position: absolute;
+        font-size: 60%;
+        right: 5%;
+        bottom: 96%
+}
+        .conjugal{
+            position: absolute;
+            font-size: 60%;
+            right: -18%;
+            bottom: 74%;
+}
+                .filhos{
+                    position: absolute;
+                    font-size: 60%;
+                    right: -17%;
+                    bottom: 46%;
+}
+                        .social{
+                            position: absolute;
+                            font-size: 60%;
+                            right: -8%;
+                            bottom: 17%;
+}
+                                .saude{
+                                    position: absolute;
+                                    font-size: 60%;
+                                    right: 22%;
+                                    bottom: -6%
+}
+                                        .servir{
+                                            position: absolute;
+                                              font-size: 60%;
+                                                 left: 33%;
+                                                    bottom: -10%
+}
+                                .intelectual{
+                                    position: absolute;
+                                      font-size: 60%;
+                                         left: -15%;
+                                            bottom: 10%;
+}
+                   .financeiro{
+                      position: absolute;
+                        font-size: 60%;
+                          left: -25%;
+                            bottom: 44%;
+}
+        .profissional{
+           position: absolute;
+              font-size: 60%;
+                left : -22% ;
+                  top: 17%;
+
+}
+.emocional{
+   position: absolute;
+     font-size: 60%;
+       left: 4%;
+         top: -4% ;
+}
+
+    .point-espiritual{
+        position: absolute;
+        font-size: 20px;  /* Aumenta o tamanho dos pontos */
+        letter-spacing: 15.8px; /* Reduz o espaçamento entre os pontos */
+        width: 250px; /* Define a largura da linha */
+        bottom: 68.5%;
+        right: 26%;
+        transform: rotate(90deg)
+    }
+        .point-parentes{
+            position: absolute;
+            font-size: 20px;
+            letter-spacing: 15px;
+            right: 14.8%;
+            top: 15.8%;
+            transform: rotate(-60deg)
+        }
+            .point-conjugal{
+
+                position: absolute;
+                font-size: 20px;
+                letter-spacing: 15.8px;
+                right: 3%;
+                bottom: 57%;
+                transform: rotate(-31deg); 
+            }
+
+                .point-filhos{
+                    position: absolute;
+                    font-size: 20px;
+                    letter-spacing: 15.8px;
+                    right: -1.5%;
+                    bottom: 43%;
+                    transform: rotate(-1deg);
+                }
+
+                    .point-social{
+                        position: absolute;
+                        font-size: 20px;
+                        letter-spacing: 15.8px;
+                        right: 1.5%;
+                        bottom: 27.7%;
+                        transform: rotate(31.2deg); 
+                    }
+
+                        .point-saude{
+                            position: absolute;
+                            font-size: 20px;
+                            letter-spacing: 15.8px;
+                            right: 13.5%;
+                            bottom: 15.7%;
+                            transform: rotate(65deg);
+                        }
+
+                            .point-servir{
+                                position: absolute;
+                                font-size: 20.5px;
+                                letter-spacing: 15.8px;
+                                right: 33.5%;
+                                bottom: 15.8%;
+                                transform: rotate(-78.8deg);
+
+                            }
+
+                                .point-intelectual{
+                                    position: absolute;
+                                    font-size: 20px;
+                                    letter-spacing: 16.2px;
+                                    left: 6%;
+                                    bottom: 25.5%;
+                                    transform: rotate(-40deg);
+
+                                  }
+
+                                    .point-financeiro{
+                                        position: absolute;
+                                        font-size: 20px;
+                                        letter-spacing: 16.2px;
+                                        left: 0.5%;
+                                        bottom: 41.8%;
+                                        transform: rotate(-2deg);
+
+                                    }
+
+                                        .point-profissional{
+                                            position: absolute;
+                                            font-size: 20px;
+                                            letter-spacing: 16px;
+                                            right: 49%; 
+                                            top: 26%;
+                                            transform: rotate(31.2deg);
+                                        }
+
+                                            .point-emocional{
+                                                position: absolute;
+                                                font-size: 20px;
+                                                letter-spacing: 15.8px;
+                                                left: 16.2%;
+                                                top: 17.4%;
+                                                transform: rotate(61deg);
+
+                                            }
+
+ 
+
+
+
+                .circle-border-small {
+                    position: absolute;
+                    top: 47.2%;
+                    left: 47.5%;
+                    border-radius: 60%;
+                    width: 30px;
+                    height: 30px;
+                    background-color: #000;
+                    margin: auto;
+                    box-shadow: 0 0 13px ;
+                    
+                    
+                
+                
+                }
