@@ -34,8 +34,8 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 480px;
-    height: 480px;
+    width: 475px;
+    height: 475px;
     border-radius: 50%;
 
     background: conic-gradient(
@@ -54,8 +54,8 @@
     top: 0;
     bottom: 0 ;
     margin: auto;
-    width: 380px;
-    height: 380px;
+    width: 375px;
+    height: 375px;
     
     border-radius: 50%;
     background: conic-gradient(
@@ -72,8 +72,8 @@
         top: 0;
         bottom: 0 ;
         margin: auto;
-        width: 280px;
-        height: 280px;
+        width: 275px;
+        height: 275px;
         
         border-radius: 50%;
         background: conic-gradient(white 0deg 0deg);
@@ -81,26 +81,26 @@
 
 .circle-border-transparent{
     position: absolute;
-    right: 3px;
+    right: 5px;
     left: 5px;
     top: 18%;
     bottom: 100px;
     margin: auto;
     background: linear-gradient(#050101 85%);
-    width: 90px;
-    height: 90px;
-    border: 2.2px solid black;
+    width: 107px;
+    height: 107px;
+    border: 3px solid black;
     
     border-radius: 50%;
 }   
 
 .circle-border-small {
     position: absolute;
-    top: 45%;
-    left: 45%;
+    top: 46.2%;
+    left: 46.2%;
     border-radius: 60%;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     background-color: #000;
     margin: auto;
     box-shadow: 0 0 13px ;
@@ -210,25 +210,25 @@
  .number-espiritual{
 position: absolute;
 letter-spacing: 7px;
-font-size: 15px;
-right: 46%;
-bottom: 64%;
+font-size: 14px;
+right: 45.7%;
+bottom: 65.5%;
 transform: rotate(-90deg)
 }
 .number-espiritual-2{
  position: absolute;
  letter-spacing: 7px;
- font-size: 17px;
- right: 48%;
- bottom: 74.8%;
+ font-size: 15px;
+ right: 47.8%;
+ bottom: 76.2%;
  transform: rotate(-90deg)
  }
 .number-espiritual-3{
 position: absolute;
-letter-spacing: 4px;
+letter-spacing: 5px;
 font-size: 18px;
-right: 48.8%;
-top: 9%;
+right: 48.3%;
+top: 8%;
 transform: rotate(-90deg)
 
  }
@@ -236,8 +236,8 @@ transform: rotate(-90deg)
 position: absolute;
 letter-spacing: 0px;
 font-size: 19px;
-right: 49.2%;
-top: 0%;
+right: 48.8%;
+top: -0.8%;
 transform: rotate(-90deg)
 }
 
@@ -248,9 +248,9 @@ transform: rotate(-90deg)
 .number-parentes{
 position: absolute;
 letter-spacing: 7px;
-font-size: 15px;
-right: 36.8%;
-top: 31%;
+ font-size: 14px;
+right: 36.2%;
+top: 30.5%;
 transform: rotate(-60deg)
 
 }
@@ -259,27 +259,27 @@ transform: rotate(-60deg)
                 
 position: absolute;
 letter-spacing: 7px;
-font-size: 18px;
-right: 33%;
-top: 21%;
+ font-size: 15px;
+right: 32.7%;
+top: 20.5%;
 transform: rotate(-60deg)
 
 }
 
 .number-parentes3{
 position: absolute;
-letter-spacing: 7px;
+letter-spacing: 5px;
 font-size: 18px;
-right: 29%;
-top: 13%;
+right: 28.8%;
+top: 12.5%;
 transform: rotate(-60deg)
 }
 .number-parentes4{
 position: absolute;
-letter-spacing: 1px;
-font-size: 20px;
+letter-spacing: 0px;
+font-size: 19px;
 right: 25%;
-top: 5%;
+top: 4.9%;
 transform: rotate(-60deg)
 
                /*  GAMBIARRA NUMERO CONJUGAL ↓↓*/   
@@ -287,33 +287,33 @@ transform: rotate(-60deg)
 
 .number-conjugal{
 position: absolute;
-letter-spacing: 8px;
-font-size: 15px;
-right: 30%;
-top: 37%;
+letter-spacing: 7px;
+font-size: 14px;
+right: 29.2%;
+top: 36.5%;
 transform: rotate(-30deg)
 }
 .number-conjugal2{
 position: absolute;
 letter-spacing: 7px;
-font-size: 18px;
+ font-size: 15px;
 right: 22%;
-top: 30%;
+top: 30.5%;
 transform: rotate(-30deg)
 }
 .number-conjugal3{
 position: absolute;
 letter-spacing: 5px;
-font-size: 20px;
-right: 15.5%;
-top: 25.2%;
+font-size: 18px;
+right: 14.5%;
+top: 25.3%;
 transform: rotate(-30deg)
 }
 .number-conjugal4{
 position: absolute;
-letter-spacing: 1px;
-font-size: 20px;
-right: 8%;
+letter-spacing: 0px;
+font-size: 19px;
+right: 7.8%;
 top: 21%;
 transform: rotate(-30deg)
 }
@@ -323,34 +323,34 @@ transform: rotate(-30deg)
 .number-filhos{
 position: absolute;
 letter-spacing: 7px;
-font-size: 15px;
-right: 27.5%;
+font-size: 14px;
+right: 26%;
 bottom: 48%;
 transform: rotate(-1.5deg)
 
 }
 .number-filhos2{
 position: absolute;
-letter-spacing: 8px;
-font-size: 18px;
+letter-spacing: 7px;
+ font-size: 15px;
 right: 17%;
-bottom: 48%;
+bottom: 48.1%;
 transform: rotate(-1.5deg)
 }
 .number-filhos3{
 position: absolute;
-letter-spacing: 8px;
-font-size: 20px;
-right: 8%;
-bottom: 48%;
+letter-spacing: 5px;
+font-size: 18px;
+right: 8.7%;
+bottom: 47.8%;
 transform: rotate(-1.5deg)
 }
 .number-filhos4{
 position: absolute;
-letter-spacing: 2px;
-font-size: 20px;
-right: 0%;
-bottom: 48%;
+letter-spacing: 0px;
+font-size: 19px;
+right: 0.6%;
+bottom: 47.8%;
 transform: rotate(-1.5deg)
 }
 
@@ -358,38 +358,38 @@ transform: rotate(-1.5deg)
 
 .number-social{
 position: absolute;
-letter-spacing: 8px;
-font-size: 15px;
-right: 28%;
-bottom: 39%;
-transform: rotate(29deg)
+letter-spacing: 7px;
+font-size: 14px;
+right: 27.8%;
+bottom: 38.5%;
+transform: rotate(30deg)
 
 }
 .number-social2{
 position: absolute;
-letter-spacing: 8px;
-font-size: 18px;
-right: 20%;
-bottom: 32.8%;
+letter-spacing: 7px;
+ font-size: 15px;
+right: 20.3%;
+bottom: 32.6%;
 transform: rotate(29deg)
 
 }
                 
 .number-social3{
 position: absolute;
-letter-spacing: 8px;
+letter-spacing: 5px;
 font-size: 18px;
-right: 12.5%;
-bottom: 28.5%;
+right: 13.2%;
+bottom: 27.6%;
 transform: rotate(29deg)
 
 }
 .number-social4{
 position: absolute;
-letter-spacing: 2px;
-font-size: 20px;
-right: 5%;
-bottom: 24%;
+letter-spacing: 0px;
+font-size: 19px;
+right: 6.3%;
+bottom: 23%;
 transform: rotate(29deg)
 
 }
@@ -399,33 +399,33 @@ transform: rotate(29deg)
 .number-saude{
 position: absolute;
 letter-spacing: 7px;
-font-size: 15px;
-right: 35%;
-bottom: 32.2%;
+font-size: 14px;
+right: 35.3%;
+bottom: 30.6%;
 transform: rotate(65deg)
 }
 .number-saude2{
 position: absolute;
-letter-spacing: 5px;
-font-size: 18px;
-right: 33%;
-bottom: 21%;
+letter-spacing: 7px;
+ font-size: 15px;
+right: 32.5%;
+bottom: 20.3%;
 transform: rotate(65deg)
 }
 .number-saude3{
 position: absolute;
 letter-spacing: 5px;
 font-size: 18px;
-right: 29.2%;
-bottom: 13%;
+right: 29%;
+bottom: 12%;
 transform: rotate(65deg)
 }
 .number-saude4{
 position: absolute;
-letter-spacing: 2px;
-font-size: 18px;
-right: 25%;
-bottom: 5%;
+letter-spacing: 0px;
+font-size: 19px;
+right: 25.8%;
+bottom: 4.3%;
 transform: rotate(65deg)
 }
 
@@ -433,34 +433,34 @@ transform: rotate(65deg)
                         
 .number-servir{    
 position: absolute;
-letter-spacing: 7.2px;
-font-size: 15px;
-right: 45.5%;
-bottom: 29.3%;
-transform: rotate(101.5deg)
+letter-spacing: 7px;
+font-size: 14px;
+right: 46.5%;
+bottom: 28%;
+transform: rotate(102deg)
 }
 .number-servir2{    
 position: absolute;
-letter-spacing: 5px;
-font-size: 17px;
-right: 50.5%;
-bottom: 18%;
-transform: rotate(100deg)
+letter-spacing: 7px;
+ font-size: 15px;
+right: 50.8%;
+bottom: 17.5%;
+transform: rotate(101deg)
 }
 .number-servir3{    
 position: absolute;
-letter-spacing: 4px;
+letter-spacing: 5px;
 font-size: 18px;
 right: 52.5%;
-bottom: 9.5%;
+bottom: 8.2%;
 transform: rotate(102deg)
 }
 .number-servir4{    
 position: absolute;
-letter-spacing: 2px;
+letter-spacing: 0px;
 font-size: 19px;
-right: 53.8%;
-bottom: 0%;
+right: 54.8%;
+bottom: -0%;
 transform: rotate(102deg)
 }
 
@@ -469,19 +469,19 @@ transform: rotate(102deg)
 
 .number-intelectual{
 position: absolute;
-letter-spacing: 8px;
-font-size: 15px;
-right: 54%;
-bottom: 35%;
-transform: rotate(-41deg)
+letter-spacing: 7px;
+font-size: 14px;
+right: 56.6%;
+bottom: 33.9%;
+transform: rotate(-40deg)
                                     
 }
 .number-intelectual2{
 position: absolute;
-letter-spacing: 8px;
-font-size: 18px;
-right: 65.2%;
-bottom: 26%;
+letter-spacing: 7px;
+ font-size: 15px;
+right: 67.1%;
+bottom: 26.4%;
 transform: rotate(-41deg)
                             
 }
@@ -489,17 +489,17 @@ transform: rotate(-41deg)
 position: absolute;
 letter-spacing: 5px;
 font-size: 18px;
-left: 21%;
+left: 20%;
 bottom: 20%;
 transform: rotate(-41deg)
     
 }
 .number-intelectual4{
 position: absolute;
-letter-spacing: 2px;
-font-size: 20px;
+letter-spacing: 0px;
+font-size: 19px;
 left: 13%;
-bottom: 13%;
+bottom: 13.8%;
 transform: rotate(-41deg)
 }
 
@@ -507,20 +507,20 @@ transform: rotate(-41deg)
 
 .number-financeiro{
 position: absolute;
-letter-spacing: 8px;
-font-size: 15px;
-left: 28.2%;
-bottom: 43.5%;
+letter-spacing: 7px;
+font-size: 14px;
+left: 27.2%;
+bottom: 43.9%;
 transform: rotate(-2deg)
         
 
 }
 .number-financeiro2{
 position: absolute;
-letter-spacing: 5px;
-font-size: 18px;
-left: 19.5%;
-bottom: 42.5%;
+letter-spacing: 7px;
+ font-size: 15px;
+left: 18.2%;
+bottom: 43.2%;
 transform: rotate(-2deg)
         
 
@@ -528,19 +528,19 @@ transform: rotate(-2deg)
 .number-financeiro3{
 position: absolute;
 letter-spacing: 5px;
-font-size: 20px;
-left: 10%;
-bottom: 41.8%;
+font-size: 18px;
+left: 9.5%;
+bottom: 42.3%;
 transform: rotate(-2deg)
         
 
 }           
 .number-financeiro4{
 position: absolute;
-letter-spacing: 2px;
+letter-spacing: 0px;
 font-size: 20px;
-left: 0.5%;
-bottom: 41.8%;
+left: 0.1%;
+bottom: 41.5%;
 transform: rotate(-2deg)
         
                 /* GAMBIARRA NUMERO PROFISSIONAL ↓↓↓*/
@@ -548,19 +548,19 @@ transform: rotate(-2deg)
 }
 .number-profissional{
 position: absolute;
-letter-spacing: 8px;
-font-size: 15px;
-left: 28.8%;
-top: 40.5%;
-transform: rotate(29deg)
+letter-spacing: 7px;
+font-size: 14px;
+left: 28.3%;
+top: 40%;
+transform: rotate(31deg)
             
 }
 .number-profissional2{
 position: absolute;
-letter-spacing: 8px;
-font-size: 18px;
-left: 20.5%;
-top: 34%;
+letter-spacing: 7px;
+ font-size: 15px;
+left: 21%;
+top: 34.2%;
 transform: rotate(29deg)
             
 }
@@ -568,17 +568,17 @@ transform: rotate(29deg)
 position: absolute;
 letter-spacing: 5px;
 font-size: 18px;
-left: 14%;
-top: 30%;
+left: 13.2%;
+top: 29.5%;
 transform: rotate(29deg)
             
 }
 .number-profissional4{
 position: absolute;
-letter-spacing: 2px;
+letter-spacing: 0px;
 font-size: 20px;
-left: 5.2%;
-top: 24.8%;
+left: 5.7%;
+top: 24.2%;
 transform: rotate(29deg)
             
 }
@@ -587,17 +587,17 @@ transform: rotate(29deg)
 
 .number-emocional{
 position: absolute;
-letter-spacing: 8px;
-font-size: 15px;
-left: 34%;
-top: 34.2%;
-transform: rotate(60deg)
+letter-spacing: 7px;
+font-size: 14px;
+left: 34.2%;
+top: 32.8%;
+transform: rotate(62deg)
 
 }
 .number-emocional2{
 position: absolute;
-letter-spacing: 6px;
-font-size: 18px;
+letter-spacing: 7px;
+ font-size: 15px;
 left: 30.8%;
 top: 23%;
 transform: rotate(60deg)
@@ -607,17 +607,17 @@ transform: rotate(60deg)
 .number-emocional3{
 position: absolute;
 letter-spacing: 5px;
-font-size: 20px;
+font-size: 18px;
 left: 26.5%;
-top: 15%;
+top: 14.8%;
 transform: rotate(60deg)
     
 
 }
 .number-emocional4{
 position: absolute;
-letter-spacing: 2px;
-font-size: 20px;
+letter-spacing: 1px;
+font-size: 19px;
 left: 22%;
 top: 6.5%;
 transform: rotate(60deg)
@@ -697,7 +697,7 @@ position: absolute;
         font-size: 20px;  /* Aumenta o tamanho dos pontos */
         letter-spacing: 15px; /* Reduz o espaçamento entre os pontos */
         width: 250px; /* Define a largura da linha */
-        bottom: 67.3%;
+        top: 13.8%;
         right: 25.9%;
         transform: rotate(90deg)
     }
@@ -705,8 +705,8 @@ position: absolute;
             position: absolute;
             font-size: 20px;
             letter-spacing: 15px;
-            right: 14.5%;
-            top: 15.7%;
+            right: 13.9%;
+            top: 14.5%;
             transform: rotate(-59.5deg)
         }
             .point-conjugal{
@@ -714,8 +714,8 @@ position: absolute;
                 position: absolute;
                 font-size: 20px;
                 letter-spacing: 15px;
-                right: 3.7%;
-                bottom: 57%;
+                right: 2.8%;
+                bottom: 57.7%;
                 transform: rotate(-30.5deg); 
             }
 
@@ -723,45 +723,45 @@ position: absolute;
                     position: absolute;
                     font-size: 20px;
                     letter-spacing: 15px;
-                    right: -0.9%;
+                    right: -2.1%;
                     bottom: 42.7%;
                     transform: rotate(-0.6deg);
                 }
 
                     .point-social{
                         position: absolute;
-                        font-size: 20px;
+                        font-size: 19.9px;
                         letter-spacing: 15px;
-                        right: 2.3%;
-                        bottom: 27.2%;
-                        transform: rotate(31.6deg); 
+                        right: 1.3%;
+                        bottom: 26.8%;
+                        transform: rotate(31.2deg); 
                     }
 
                         .point-saude{
                             position: absolute;
                             font-size: 20px;
                             letter-spacing: 15px;
-                            right: 14.2%;
-                            bottom: 15.5%;
-                            transform: rotate(65deg);
+                            right: 13.6%;
+                            bottom: 14.3%;
+                            transform: rotate(65.3deg);
                         }
 
                             .point-servir{
                                 position: absolute;
-                                font-size: 20.5px;
+                                font-size: 20.1px;
                                 letter-spacing: 15px;
-                                right: 35.2%;
-                                bottom: 15.5%;
-                                transform: rotate(-77.8deg);
+                                right: 35.4%;
+                                bottom: 14.1%;
+                                transform: rotate(-78deg);
 
                             }
 
                                 .point-intelectual{
                                     position: absolute;
-                                    font-size: 20px;
+                                    font-size: 19.8px;
                                     letter-spacing: 15px;
-                                    left: 6.8%;
-                                    bottom: 25.5%;
+                                    left: 5.8%;
+                                    bottom: 24.7%;
                                     transform: rotate(-39.5deg);
 
                                   }
@@ -770,7 +770,7 @@ position: absolute;
                                         position: absolute;
                                         font-size: 20px;
                                         letter-spacing: 15px;
-                                        left: 2%;
+                                        left: 0.3%;
                                         bottom: 41.9%;
                                         transform: rotate(-1.5deg);
 
@@ -780,8 +780,8 @@ position: absolute;
                                             position: absolute;
                                             font-size: 20px;
                                             letter-spacing: 15px;
-                                            right: 49.8%; 
-                                            top: 26.5%;
+                                            right: 50.9%; 
+                                            top: 25.7%;
                                             transform: rotate(30.8deg);
                                         }
 
@@ -789,8 +789,8 @@ position: absolute;
                                                 position: absolute;
                                                 font-size: 20px;
                                                 letter-spacing: 15px;
-                                                left: 16.9%;
-                                                top: 17.7%;
+                                                left: 16.2%;
+                                                top: 16.4%;
                                                 transform: rotate(61deg);
 
                                             }
