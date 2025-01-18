@@ -324,17 +324,17 @@ transform: rotate(-30deg)
 position: absolute;
 letter-spacing: 7px;
 font-size: 14px;
-right: 26%;
-bottom: 48%;
-transform: rotate(-1.5deg)
+right: 26.1%;
+bottom: 48.3%;
+transform: rotate(-0.8deg)
 
 }
 .number-filhos2{
 position: absolute;
 letter-spacing: 7px;
  font-size: 15px;
-right: 17%;
-bottom: 48.1%;
+right: 17.2%;
+bottom: 48.5%;
 transform: rotate(-1.5deg)
 }
 .number-filhos3{
@@ -520,7 +520,7 @@ position: absolute;
 letter-spacing: 7px;
  font-size: 15px;
 left: 18.2%;
-bottom: 43.2%;
+bottom: 43.5%;
 transform: rotate(-2deg)
         
 
